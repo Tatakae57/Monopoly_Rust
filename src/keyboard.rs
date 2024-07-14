@@ -39,3 +39,7 @@ pub fn get_menu_entry(
 pub fn get_server_entry(key: &mut i32, current_frame: &mut u8) {
     *key = getch();
 }
+
+pub fn get_game_entry(key: &mut i32, current_frame: &mut u8, message_box: &mut String) {
+    *key = getch();
+}

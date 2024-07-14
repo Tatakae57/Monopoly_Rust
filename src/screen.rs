@@ -36,6 +36,8 @@ pub fn colors() {
     //   Table
     // Start, Lucky, Jail and Auction
     init_pair(15, COLOR_RED, COLOR_WHITE);
+    // Station, Mine, Sun and Stars
+    init_pair(16, COLOR_BLUE, COLOR_WHITE);
     // Section 1
     init_pair(3, COLOR_WHITE, COLOR_GREEN);
     // Section 2
